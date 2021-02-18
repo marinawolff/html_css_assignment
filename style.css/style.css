@@ -18,14 +18,13 @@ header, footer {
     text-align: center;
     }
 
-    ul li { 
+ul li { 
         list-style-type: square;
         background: lavender;
     }
 
-    ul li:nth-child(odd) {
-        background:rgb(252, 212, 212);
-        
+ul li:nth-child(odd) {
+        background:rgb(252, 212, 212);    
     }
     
 .name {
@@ -34,13 +33,12 @@ header, footer {
 
 .site-title {
     color:rgb(44, 123, 196)
-
-}
+    }
 
 #my-image{
     box-shadow: 0px 0px 2px 1px #000000;
     width: 800px;  
-}
+    }
 
 nav a:link, a:visited {
     background-color: rgb(250, 135, 135);
@@ -52,11 +50,10 @@ nav a:link, a:visited {
     display: inline-block;
     box-shadow: 1px 1px 3px #000000;
     border-radius: 10px;
-
-  }
+    }
   
-  nav a:hover, a:active {
+nav a:hover, a:active {
     background-color: rgb(42, 212, 212);
     border: 2px solid rgb(163, 240, 201);
     color:rgb(1, 94, 94);
-  }
+    }
